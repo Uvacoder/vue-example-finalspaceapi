@@ -1,6 +1,3 @@
-{
-  /* Not a Live Editor*/
-}
 <template>
   <div class="root">
     <p v-if="loading">Loading...</p>
@@ -57,7 +54,6 @@ export default {
 .root {
   margin: 0 auto;
   padding: 0 10px;
-  color: #333;
   font-family: sans-serif;
   font-weight: 300;
   display: flex;
